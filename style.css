@@ -1,0 +1,140 @@
+/* main container */
+.content {
+  max-width: 1000px;
+  width: 90%;
+  background-color: white;
+  margin: 4% auto;
+  padding: 20px;
+}
+
+
+.box {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  background-color: rgb(21, 178, 104, 0.85);
+  border-radius: 5px;
+  padding: 50px;
+  margin: 20px auto;
+}
+
+
+h1 {
+  font-size: 54px;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+h5 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+h3 {
+  color: rgb(52, 166, 223);
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+/* 1st button */
+button, .btn {
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 10px 25px;
+  border: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover, .btn:hover {
+  background-color: rgb(200, 227, 202);
+}
+
+/* 2nd button */
+.btn {
+  display: inline-block;
+  border: 1px solid black;
+  background-color: white;
+  color: rgb(85, 184, 227);
+}
+
+/* 3rd */
+.btn.buttn {
+  background-color: black;
+  color: white;
+}
+
+.btn.buttn:hover {
+  background-color: rgb(193, 230, 246);
+  color: rgb(4, 4, 4);
+}
+
+
+.box.name {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.change {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.box.name.view {
+  margin: 2% auto;
+  width: 70%;
+  padding: 17px;
+  text-align: left;
+}
+
+.box.text {
+  background-color: white;
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+
+.box.text input {
+  width: 80%; 
+  max-width: 300px; 
+  padding: 8px; 
+  margin: 10px auto;
+  display: block; 
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.box.text .btn.buttn {
+  width: 80%; 
+  max-width: 300px;
+  padding: 8px; 
+  margin: 10px auto; 
+  font-size: 14px; 
+  display: block;
+  text-align: center;
+}
+
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+
